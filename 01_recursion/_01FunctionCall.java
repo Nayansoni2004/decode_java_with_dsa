@@ -1,9 +1,9 @@
 public class _01FunctionCall {
     public static void apple() {
-        System.out.println("Hi, i am in apple");
+        System.out.println("Hii, i am in apple");
     }
     public static void main(String[] args) {
-        System.out.println("Hi, i am in main method");
+        System.out.println("Hii, i am in main method");
         apple();
     }
 }
