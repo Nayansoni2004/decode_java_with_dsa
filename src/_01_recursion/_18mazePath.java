@@ -21,6 +21,7 @@ public class _18mazePath {
         System.out.println("there are " + maze(1, 1, m, n) + " possible paths to reach " + m + " * " + n + " grid");
     }
 }
+//in this code due to base case conditions many redundant duplicate calculations occur which increases the time complexity...
 /*
 Enter m rows: 2
 Enter n columns: 3
