@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class _19mazePathEasiestWay {
     public static int maze(int row, int col, int m, int n) {
-        if(row == m || col == n) return 1;
+        if(row == m || col == n) return 1; //best base case for maze path
         int rightways = maze(row, col + 1, m, n);
         int downways = maze(row + 1, col, m , n);
         return rightways + downways;
